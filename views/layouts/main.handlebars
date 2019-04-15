@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="/css/main.css">
+        <title>Greener Petition</title>
+    </head>
+    <body>
+
+    
+              <div id="menu">
+                  <a href="/editprofile"><button>Profile</button></a>
+                  <a href="/logout"><button>Logout</button></a>
+                  <div id="x">X</div></div>
+
+
+        <header>
+            <div id="head">
+                <img src="/images/download.jpg">
+            </div>
+        </header>
+
+
+
+
+                        {{{body}}}
+
+
+
+
+
+
+
+        <footer id="foot">
+            <span id="year"> </span>
+            &copy; GreenerWorld Petetion
+        </footer>
+
+
+    </body>
+
+
+        <script type="text/javascript">
+            var year = new Date;
+            year = year.getFullYear();
+            document.getElementById("year").innerHTML = year;
+
+            document.getElementById("head").onclick = function() {
+                document.getElementById("menu").style.right = "0";
+            };
+
+            document.getElementById("x").onclick = function() {
+                document.getElementById("menu").style.right = "-150px";
+            };
+        </script>
+
+
+
+</html>

@@ -1,0 +1,51 @@
+body {
+    background-image: url(/images/verde.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+   font-family: "Courier New", Courier, monospace;
+}
+
+
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+ul {
+    font-size: 15px;
+}
+
+button {
+    cursor: pointer;
+    margin: 20px;
+    border: 1px dotted black;
+    border-radius: 10px;
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    font-family:"Courier New", Courier, monospace
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+}
+
+
+#list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box {
+    width: 350px;
+    height: 510px;
+    background-color: white;
+    opacity: 0.9;
+    text-align: center;
+    z-index: 6;
+}

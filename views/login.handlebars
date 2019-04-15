@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="/css/login.css">
+
+
+<div id="body">
+    <div id="central">
+        <form method="POST">
+            <div id="box">
+                <h2>Please Log In</h2>
+                <div id="box">
+                    {{#if email}}
+                    <p>Ooops!
+                    <p>It seems this email is not registered yet</p>
+                    <a href="/registration">Click here to Register</a>
+                    {{/if}}
+
+                    {{#password}}
+                    <p>Huum..</p>
+                    <p>This password does not match, try again!</p>
+                    {{/password}}
+                </div>
+
+                <input type="text" name="email" placeholder="Email" autocomplete="off">
+                <input type="password" name="password" placeholder="Password" autocomplete="off">
+                <input type="hidden" name="_csrf" value="{{csrfToken}}">
+                <button>Log In</button>
+            </div>
+
+        </form>
+    </div>
+</div>

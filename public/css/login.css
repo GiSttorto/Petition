@@ -1,0 +1,75 @@
+body {
+    background-image: url(/images/ar.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+   font-family:"Courier New", Courier, monospace;
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+}
+
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button {
+    cursor: pointer;
+    margin: 20px;
+    border: 1px dotted black;
+    border-radius: 10px;
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    font-family: "Courier New", Courier, monospace
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+}
+
+ 
+input {
+    margin: 2px;
+    border: none;
+    border-bottom: 2px solid black;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-family: : "Courier New", Courier, monospace:
+}
+
+input[placeholder] {
+    font-family: "Courier New", Courier, monospace;
+}
+
+a {
+    color: black;
+}
+
+
+
+#central {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    opacity: 0.8;
+    margin: 40px;
+}
+
+#box {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+};

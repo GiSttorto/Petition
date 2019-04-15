@@ -1,0 +1,17 @@
+        <link rel="stylesheet" href="/css/list.css">
+
+        <div id="list">
+
+            <div id="box">
+                <h2>Who Signed This Petition</h2>
+                <hr>
+                {{#people}}
+                <ul>
+                    {{ first }} {{ last }} | {{ age }} ||
+                    <a  href="/list/{{ city }}"> {{ city }} </a>
+                </ul>
+                {{/people}}
+                <a href="/thankyou"><button>Go Back</button></a>
+            </div>
+
+        </div>

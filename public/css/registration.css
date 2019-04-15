@@ -1,0 +1,75 @@
+body {
+    background-image: url(/images/image7.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Courier New", Courier, monospace
+}
+
+#central {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button {
+    cursor: pointer;
+    margin: 20px;
+    border: 1px dotted black;
+    border-radius: 10px;
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    font-family: "Courier New", Courier, monospace
+}
+
+
+button:hover {
+    color: white;
+    background-color: black;
+}
+
+
+input {
+    margin: 2px;
+    border: none;
+    border-bottom: 2px solid black;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+}
+
+input[placeholder] {
+    font-family: "Courier New", Courier, monospace
+}
+
+
+.block {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.3;
+}
+
+.box {
+  background-color: white;
+  opacity: 0.8;
+  top: 50%;
+  left: 25%;
+  width: 700px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

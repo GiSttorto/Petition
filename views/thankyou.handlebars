@@ -1,0 +1,24 @@
+        <link rel="stylesheet" href="/css/thankyou.css">
+
+
+        <div id="box">
+            <div id="body">
+                    <h2>Thanks for your support {{first}}!</h2>
+                    <img id="canvas" src={{signature}}>
+            </div>
+        </div>
+
+
+            <div class="botoes">
+
+                <form action="/list" method="GET">
+                    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+                    <button>See who has also sign!</button>
+                </form>
+
+                <form action = "/signature/delete" method="POST">
+                    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+                    <button>Change Your Signature!</button>
+                </form>
+
+            </div>

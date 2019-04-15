@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="/css/cities.css">
+
+<div id="list">
+
+
+    <div id="box">
+        <h2>Supporters from {{ city }}</h2>
+        <hr>
+        {{#each citylist}}
+        <p>
+            {{ first }} {{ last }} | {{ age }}
+        </p>
+        {{/each}}
+        <a href="/list"><button>Go Back to List</button></a>
+    </div>
+
+</div>

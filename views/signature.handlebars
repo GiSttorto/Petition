@@ -1,0 +1,24 @@
+
+        <link rel="stylesheet" href="/css/signature.css">
+
+
+        <form method="POST">
+            <div id="box">
+                <h2>Please sign below to confirm your support</h2>
+                {{#if err }}
+                <p>Oops! Something is wrong! :(</p>
+                <p>You must fill all required fields in order to continue
+                {{/if}}
+                <input id="caixa" type="hidden" name="signature">
+                <input type="hidden" name="_csrf" value="{{csrfToken}}">
+
+                <div class="container">
+                    <canvas id="canv" width="500" height="200"></canvas>
+                </div>
+
+                <button>Submit</button>
+
+            </div>
+        </form>
+
+        <script src="/script/scrip.js"></script>

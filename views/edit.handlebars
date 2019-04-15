@@ -1,0 +1,35 @@
+        <link rel="stylesheet" href="/css/edit.css">
+
+        <div id="body">
+
+            <div id="central">
+                <form method="post">
+                    <div id="box">
+                        <h2>Profile</h2>
+                        {{#result}}
+                        <input type="text" name="first" value="{{ first }}" placeholder="Name">
+
+                        <input type="text" name="last" value="{{ last }}" placeholder="Last name">
+
+                        <input type="text" name="email" value="{{ email }}" placeholder="Email">
+
+                        <input type="password" name="password" placeholder="password">
+
+                        <input type="text" name="age" value="{{ age }}" placeholder="Age">
+
+                        <input type="text" name="city" value="{{ city }}" placeholder="City">
+
+                        <input type="test" name="url" value="{{ url }}" placeholder="HomePage">
+                        {{/result}}
+
+                        <div class="button">
+                            <input type="hidden" name="_csrf" value="{{csrfToken}}">
+                            <button>UPDATE</button>
+                        </div>
+
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
