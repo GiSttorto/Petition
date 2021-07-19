@@ -1,3 +1,7 @@
+```diff
+- <b>THIS PROJECT IS CURRENTLY BEING REVIEWED TO IMPROVE THE CODE</b>
+```
+
 # Petition
 
 <h2>Live Website</h2>
@@ -6,8 +10,6 @@ https://greenerworld.herokuapp.com/
 <h2>Overview</h2>
 Petition is a website that allows the users to support a petition by stamping their signature in it.
 This project was build while attending the Full Stack Developemtn Bootcamp at SPICE Academy.
-
-<b><u>THIS PROJECT IS CURRENTLY BEING REVIEWED TO IMPROVE THE CODE</u></b>
 
 <h2>Features</h2>
 <ul>
